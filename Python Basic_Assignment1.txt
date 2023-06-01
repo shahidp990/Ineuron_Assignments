@@ -1,0 +1,44 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+	integer or string and expressions will be mathematical operators.
+	
+	* --> Expression
+	'hello'-->Values
+	-87.8-->Values
+	- -->Expression
+	/-->Expression
+	+ -->Expression
+	6 ->Values
+	
+	
+	
+2. What is the difference between string and variable?
+
+	String--> In any computer programming language, a string is a sequence of characters used to represent text.
+			For Example, 'hello', 'shahid'
+	Variable-->In programming, a variable is a value that can change, depending on conditions or on information passed to the program.
+			For example, 52.63
+	
+3. Describe three different data types:
+	Different Data types: Float, Char, Int, String
+	
+4. What is an expression made up of? What do all expressions do?
+    In programming, an expression is a value, or anything that executes and ends up being a value.
+	Expressions evaluates a value.
+	
+5. Expression is itself has a mathematical operators.
+  While statement is a sentence having variable value or fixed value assigned to different fixed value using mathematical operators.
+  
+ 6. bacon=22
+ 
+ 7. 
+   'spam'+'spamspam'==> This will give an error.
+   'spam'*3--> 'spamspamspam'
+
+8. 'Eggs' is a variable because it may contain any value. While 100 is a fixed value.
+
+9. int(3.1416)
+	Float(3.1416)
+	String('3.1416')
+	
+10. 'I have eaten'+99+'burritos'
+This expression will give an error because we can not add string to numbers.
