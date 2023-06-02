@@ -1,0 +1,101 @@
+1.What are the two values of the Boolean data type? How do you write them?
+--> Boolean is a primitive data type that takes either “true” or “false” values. 
+	So anything that returns the value “true' or “false” can be considered as a boolean example. 
+	We write boolean values as TRUE and FALSE.
+	
+2. What are the three different types of Boolean operators?
+-->Python has three Boolean operators, or logical operators: AND , OR , and NOT .
+
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean
+   values for the operator and what it evaluate ).
+   
+   
+   
+ 4. What are the values of the following expressions?
+-->	(5 > 4) and (3 == 5) --> FALSE
+	not (5 >4) --> FALSE
+    (5>4) or (3==5) --> TRUE
+	NOT((5>4) or (3==5))-->FALSE
+    (True and True) and (True == False) --> FALSE
+	(not False) or (not True) --> TRUE
+	
+5. What are the six comparison operators?
+--> Python has six comparison operators, which are as follows:
+
+	Less than ( < )
+	Less than or equal to (<=)
+	Greater than (>)
+	Greater than or equal to (>=)
+	Equal to ( == )
+	Not equal to ( != )
+	
+	
+6. How do you tell the difference between the equal to and assignment operators?
+	Describe a condition and when you would use one.
+--> = is an Assignment Operator it is used to assign the value of variable or expression, 
+    while == is an Equal to Operator and it is a relation operator used for comparison (to compare value of both left and right side operands).
+	For Example, if a is a variable and we wants to assign 5 to a, then we can write, a=5.
+	While to compare two operand we use ==, e.g. TRUE==FALSE
+	
+7. Identify the three blocks in this code:
+--> spam = 0
+if spam == 10:      -->Block 1
+print('eggs')
+
+if spam > 5:		-->Block 2
+print('bacon')
+
+else:				-->Block 3
+print('ham')
+print('spam')
+print('spam')
+
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
+   Greetings! if anything else is stored in spam.
+--> 
+     spam=0
+	 if spam==1:
+	 print('Hello')
+	 
+	 if spam==2:
+	 print('Howdy')
+	 
+	 else
+	 print('Greetings')
+	 
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+
+
+
+10. How can you tell the difference between break and continue?
+-->	Break: In the break statement, the control exits from the loop.
+	       It is used to stop the execution of the loop at a specific condition.
+		   
+	Continue:In the continue statement, the control remains within the loop.
+			 It is used to skip a particular iteration of the loop.
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+-->	range(10): This form of the range() function generates a sequence of numbers starting from 0 (default start value) and ending at 10 (exclusive upper bound). 
+               It increments the value by 1 (default step size) in each iteration.
+	range(0, 10): This form of the range() function explicitly specifies the start and end values of the sequence, but omits the step size. 
+				  It generates a sequence starting from 0 (inclusive) and ending at 10 (exclusive).
+	range(0, 10, 1): This form of the range() function explicitly specifies the start, end, and step values of the sequence. 
+					It generates a sequence starting from 0 (inclusive) and ending at 10 (exclusive), with a step size of 1.
+					
+    In summary, the three forms of range() used in a "for" loop generate the same sequence of numbers from 0 to 9 with a step size of 1. 
+	The differences lie in the way the arguments are provided, where the second and third forms allow for explicit specification of the start, end, and step values, while the first form assumes defaults of start=0, step=1 when omitted.
+	
+	
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+	program that prints the numbers 1 to 10 using a while loop.
+	
+-->	for i in range(0,11):
+	  print(i)
+	  
+	  i=0
+	While(i<11):
+		i++ 
+		print(i)
+		
